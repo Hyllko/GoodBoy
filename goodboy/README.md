@@ -3,4 +3,4 @@
 
 1. ### `npm install` or ### `yarn`
 
-### `npm start` or ### `yarn start`
+2. ### `npm start` or ### `yarn start`
