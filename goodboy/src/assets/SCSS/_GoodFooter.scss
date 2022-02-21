@@ -1,0 +1,30 @@
+.footer-container {
+   border-top: 1px solid rgba(47, 47, 47, 0.16);
+   padding-top: toRem(117);
+   padding-bottom: toRem(45);
+   line-height: toRem(21);
+   display: flex;
+   justify-content: space-between;
+   &--item {
+      width: toRem(170);
+      &:first-child {
+         width: fit-content;
+         position: relative;
+         top: toRem(-18);
+      }
+
+      li {
+         line-height: toRem(32);
+         a:hover,
+         a:active {
+            border-bottom: 1px solid rgba(47, 47, 47, 0.5);
+         }
+      }
+   }
+}
+h3 {
+   font-size: toRem(16);
+   padding-bottom: toRem(24);
+   font-weight: $weight-xlg;
+   color: $second-header-color;
+}

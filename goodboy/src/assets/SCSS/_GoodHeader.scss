@@ -1,0 +1,28 @@
+header {
+   background: #fefefe;
+   box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.08);
+}
+
+.nav-container {
+   height: toRem(40);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   color: $secondary-font-color;
+   h1 {
+      font-size: toRem(14);
+      font-weight: $weight-md;
+      line-height: toRem(16);
+   }
+}
+.nav-container__icon {
+   a {
+      display: inline-block;
+      width: toRem(24);
+      height: toRem(24);
+      transition: $transition;
+      &:first-child {
+         margin-right: toRem(8);
+      }
+   }
+}

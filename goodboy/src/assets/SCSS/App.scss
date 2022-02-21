@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap');
+@import './variables';
+@import './global';
+
+@import './GoodHeader';
+@import './ProgressBar';
+@import './GoodForm';
+@import './GoodFormComponents';
+@import './GoodFooter';
+@import './responsive';
+
+.App {
+   max-width: $container-width;
+   margin: 0 auto;
+}
+:root {
+   --animate-duration: 500ms;
+}

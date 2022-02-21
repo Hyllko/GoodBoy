@@ -1,0 +1,22 @@
+.progress-bar {
+   display: flex;
+   padding: {
+      top: toRem(89);
+      bottom: toRem(28);
+   }
+}
+
+.progress-step {
+   width: toRem(20.6);
+   height: toRem(6);
+   opacity: 0.36;
+   border-radius: toRem(10);
+   margin: 0 toRem(5);
+   background-color: $primary-bg-color;
+   transition: $transition;
+}
+.progress-step--active {
+   width: toRem(43.77);
+   opacity: 1;
+   background: $second-bg-color;
+}

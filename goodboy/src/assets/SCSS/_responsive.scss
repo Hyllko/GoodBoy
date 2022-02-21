@@ -1,0 +1,39 @@
+@media screen and (max-width: 850px) {
+   .footer-container--item:first-child {
+      display: none;
+   }
+   .main-container {
+      background: #f1f1f1;
+   }
+   .progress-bar {
+      padding-top: toRem(24);
+   }
+   .form-container {
+      margin: 0 auto;
+   }
+}
+@media screen and (max-width: 600px) {
+   html {
+      font-size: 90%;
+   }
+   .form-container {
+      padding-bottom: toRem(24);
+   }
+
+   .emoji {
+      font-size: toRem(250);
+   }
+}
+@media screen and (max-width: 530px) {
+   .footer-container {
+      justify-content: center;
+   }
+   input[type='button'],
+   input[type='number'] {
+      font-size: toRem(14);
+      padding: toRem(10);
+   }
+   .footer-container--item:not(:nth-child(2)) {
+      display: none;
+   }
+}

@@ -1,0 +1,47 @@
+html,
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-size: $font-size;
+   font-weight: $weight-sm;
+   color: $primary-font-color;
+}
+*,
+*:before,
+*:after {
+   box-sizing: inherit;
+}
+body {
+   font-family: $base-font-family;
+   min-height: 100vh;
+}
+
+.container {
+   max-width: toRem($inner-width);
+   padding: 0 toRem(16);
+   margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0;
+}
+p {
+   margin: 0;
+}
+a {
+   text-decoration: none;
+   color: $primary-font-color;
+}
+ul {
+   margin: 0;
+   padding-left: 0;
+}
+li {
+   list-style: none;
+}

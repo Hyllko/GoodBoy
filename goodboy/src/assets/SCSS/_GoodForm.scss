@@ -1,0 +1,24 @@
+.main-container {
+   background: url('../../assets/IMG/dog.png');
+   background-repeat: no-repeat;
+   background-position: 100%;
+}
+.form-container {
+   max-width: toRem(557);
+   padding-bottom: toRem(159);
+   h2 {
+      color: $primary-header-color;
+      font-family: 'Hind', sans-serif;
+      font-size: toRem(42);
+      font-weight: $weight-lg;
+      line-height: toRem(52);
+      letter-spacing: 0.01rem;
+      padding-bottom: toRem(42);
+   }
+   small {
+      font-weight: $weight-xlg;
+      font-size: toRem(16);
+      line-height: toRem(19);
+      color: $second-header-color;
+   }
+}
